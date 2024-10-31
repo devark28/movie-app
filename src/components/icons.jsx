@@ -1,9 +1,9 @@
 export const HomeIcon = () => (
   <svg
-    dataEncoreId="icon"
+    // dataEncoreId="icon"
     role="img"
-    ariaHidden="true"
-    class="fill-slate-50 shrink-0"
+    // ariaHidden="true"
+    className="fill-slate-50 shrink-0"
     viewBox="0 0 24 24"
     width="24"
     height="24"
@@ -16,12 +16,12 @@ export const MovieIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="25.5"
     height="25.5"
-    class="fill-slate-50 shrink-0 undefined"
+    className="fill-slate-50 shrink-0 undefined"
     viewBox="0 0 24 24"
   >
     <path
       fill="none"
-      class="stroke-slate-50 undefined"
+      className="stroke-slate-50 undefined"
       strokeLinejoin="round"
       strokeWidth="1.8"
       d="M3 6.804v10.392c0 1.54 1.667 2.502 3 1.732l3-1.732V6.804L6 5.072c-1.333-.77-3 .192-3 1.732Zm18 3.464c1.333.77 1.333 2.694 0 3.464l-9 5.196c-1.333.77-3-.192-3-1.732V6.804c0-1.54 1.667-2.502 3-1.732z"
@@ -33,7 +33,7 @@ export const TvIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    class="fill-slate-50 shrink-0"
+    className="fill-slate-50 shrink-0"
     viewBox="0 0 16 16"
   >
     <rect width="16" height="16" fill="none"></rect>
@@ -45,7 +45,7 @@ export const KDramaIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="25"
     height="25"
-    class="fill-slate-50 shrink-0"
+    className="fill-slate-50 shrink-0"
     viewBox="0 0 24 24"
   >
     <rect width="24" height="24" fill="none"></rect>
@@ -57,7 +57,7 @@ export const AnimeIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="25"
     height="25"
-    class="fill-slate-100 shrink-0 undefined"
+    className="fill-slate-100 shrink-0 undefined"
     viewBox="0 0 32 32"
   >
     <rect width="32" height="32" fill="none"></rect>
@@ -69,7 +69,7 @@ export const MangaIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="26"
     height="26"
-    class="fill-slate-100 shrink-0"
+    className="fill-slate-100 shrink-0"
     viewBox="0 0 1024 1024"
   >
     <rect width="1024" height="1024" fill="none"></rect>
@@ -88,7 +88,7 @@ export const LiveTvIcon = () => (
   >
     <path
       fill="none"
-      class="stroke-slate-300 stroke-slate-200"
+      className="stroke-slate-300 stroke-slate-200"
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth="2.2"
@@ -108,7 +108,7 @@ export const ClockIcon = () => (
     strokeWidth="2.2"
     strokeLinecap="round"
     strokeLinejoin="round"
-    class="lucide lucide-clock10 text-slate-50"
+    className="lucide lucide-clock10 text-slate-50"
   >
     <circle cx="12" cy="12" r="10"></circle>
     <polyline points="12 6 12 12 8 10"></polyline>
@@ -125,7 +125,7 @@ export const HeartIcon = () => (
     strokeWidth="2.3"
     strokeLinecap="round"
     strokeLinejoin="round"
-    class="lucide lucide-heart"
+    className="lucide lucide-heart"
   >
     <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path>
   </svg>
@@ -135,14 +135,14 @@ export const SettingsIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
-    class="fill-slate-50 shrink-0 undefined"
+    className="fill-slate-50 shrink-0 undefined"
     viewBox="0 0 24 24"
   >
     <g
       fill="none"
       stroke="white"
       strokeWidth="2"
-      class="stroke-slate-100 undefined"
+      className="stroke-slate-100 undefined"
     >
       <circle cx="12" cy="12" r="3"></circle>
       <path d="M13.765 2.152C13.398 2 12.932 2 12 2c-.932 0-1.398 0-1.765.152a2 2 0 0 0-1.083 1.083c-.092.223-.129.484-.143.863a1.617 1.617 0 0 1-.79 1.353a1.617 1.617 0 0 1-1.567.008c-.336-.178-.579-.276-.82-.308a2 2 0 0 0-1.478.396C4.04 5.79 3.806 6.193 3.34 7c-.466.807-.7 1.21-.751 1.605a2 2 0 0 0 .396 1.479c.148.192.355.353.676.555c.473.297.777.803.777 1.361c0 .558-.304 1.064-.777 1.36c-.321.203-.529.364-.676.556a2 2 0 0 0-.396 1.479c.052.394.285.798.75 1.605c.467.807.7 1.21 1.015 1.453a2 2 0 0 0 1.479.396c.24-.032.483-.13.819-.308a1.617 1.617 0 0 1 1.567.008c.483.28.77.795.79 1.353c.014.38.05.64.143.863a2 2 0 0 0 1.083 1.083C10.602 22 11.068 22 12 22c.932 0 1.398 0 1.765-.152a2 2 0 0 0 1.083-1.083c.092-.223.129-.483.143-.863c.02-.558.307-1.074.79-1.353a1.617 1.617 0 0 1 1.567-.008c.336.178.579.276.819.308a2 2 0 0 0 1.479-.396c.315-.242.548-.646 1.014-1.453c.466-.807.7-1.21.751-1.605a2 2 0 0 0-.396-1.479c-.148-.192-.355-.353-.676-.555A1.617 1.617 0 0 1 19.562 12c0-.558.304-1.064.777-1.36c.321-.203.529-.364.676-.556a2 2 0 0 0 .396-1.479c-.052-.394-.285-.798-.75-1.605c-.467-.807-.7-1.21-1.015-1.453a2 2 0 0 0-1.479-.396c-.24.032-.483.13-.82.308a1.617 1.617 0 0 1-1.566-.008a1.617 1.617 0 0 1-.79-1.353c-.014-.38-.05-.64-.143-.863a2 2 0 0 0-1.083-1.083Z"></path>
@@ -151,9 +151,9 @@ export const SettingsIcon = () => (
 );
 export const SearchIcon = () => (
   <svg
-    dataEncoreId="icon"
+    // dataEncoreId="icon"
     role="img"
-    class="shrink-0 fill-gray-300 group-hover:fillWhite smoothie"
+    className="shrink-0 fill-gray-300 group-hover:fillWhite smoothie"
     viewBox="0 0 24 24"
     width="24"
     height="24"

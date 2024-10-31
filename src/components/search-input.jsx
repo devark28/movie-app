@@ -5,9 +5,9 @@ const SearchInput = () => (
     <div className="relative flex-grow flex items-center">
         <button
             type="button"
-            aria-haspopup="dialog"
-            aria-expanded="false"
-            data-state="closed"
+            // ariaHaspopup="dialog"
+            // ariaExpanded="false"
+            // dataState="closed"
             className="flex items-center w-full"
         >
             <div className="flex-grow relative max-w-[30rem] mr-auto bg-white/[.08] rounded-[2rem] group focus-within:bg-white/15 smoothie overflow-hidden h-10 ring-[.025em] ring-white/20 ml-1">
@@ -21,6 +21,7 @@ const SearchInput = () => (
                     placeholder="Search..."
                     className="bg-transparent size-full p-3 pl-12 !text-sm 2xl:!text-base !text-gray-100 tracking-wider"
                     value=""
+                    onChange={() => { }}
                 />
             </div>
         </button>

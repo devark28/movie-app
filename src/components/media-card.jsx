@@ -4,7 +4,7 @@ import { Star } from "lucide-react";
 const MediaCard = ({ type, year, title, rating, imageUrl, id }) => (
   <div
     role="group"
-    aria-roledescription="slide"
+    // ariaRoledescription="slide"
     className="min-w-0 shrink-0 grow-0 basis-[32%] sm:basis-1/4 lg:basis-1/5 xl:basis-[14.28%] 2xl:basis-[12.5%] p-[.4rem] sm:p-2 !shrink-0 max-w-[12rem] !select-none"
   >
     <div className="flex w-full cursor-pointer relative">

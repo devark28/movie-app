@@ -19,7 +19,7 @@ const MediaCarousel = ({ title, items, type = "movie" }) => {
       <div
         className="relative w-full"
         role="region"
-        aria-roledescription="carousel"
+        // ariaRoledescription="carousel"
       >
         <div className="flex flex-col w-full gap-3 tracking-wide">
           <div className="w-full flex items-center justify-between">

@@ -1,4 +1,6 @@
 import React from "react";
+import { Plus } from "lucide-react";
+
 const AddButton = ({ onClick }) => (
   <div>
     <button
