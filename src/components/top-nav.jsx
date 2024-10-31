@@ -6,14 +6,14 @@ const TopNav = () => {
     return (
         <div className="w-full flex flex-col p-3 gap-2 rounded-lg xl:rounded-xl bg-white/[.07] shrink-0">
             <NavLink
-                href="https://freek.to/"
+                href="/"
                 icon={<HomeIcon className="fill-slate-50 shrink-0" width={24} height={24} />}
                 isActive={true}
             >
                 Home
             </NavLink>
             <NavLink
-                href="https://freek.to/search"
+                href="/search"
                 icon={<Search className="shrink-0 fill-gray-300 group-hover:fill-white smoothie" width={24} height={24} />}
             >
                 Search

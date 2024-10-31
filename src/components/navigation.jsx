@@ -22,7 +22,7 @@ const Navigation = () => {
       <div className="flex flex-col size-full items-center">
         <NavigationContainer>
           <NavLink
-            href="https://freek.to/explore/movie"
+            href="/explore/movie"
             icon={
               <MovieIcon
                 className="fill-slate-50 shrink-0"
@@ -34,7 +34,7 @@ const Navigation = () => {
             Movies
           </NavLink>
           <NavLink
-            href="https://freek.to/explore/tv"
+            href="/explore/tv"
             icon={
               <TvIcon className="fill-slate-50 shrink-0" width={24} height={24} />
             }
@@ -42,7 +42,7 @@ const Navigation = () => {
             Tv Shows
           </NavLink>
           <NavLink
-            href="https://freek.to/explore/k-drama"
+            href="/explore/k-drama"
             icon={
               <KDramaIcon
                 className="fill-slate-50 shrink-0"
@@ -54,7 +54,7 @@ const Navigation = () => {
             K Drama
           </NavLink>
           <NavLink
-            href="https://freek.to/explore/anime"
+            href="/explore/anime"
             icon={
               <AnimeIcon
                 className="fill-slate-100 shrink-0"
@@ -66,7 +66,7 @@ const Navigation = () => {
             Anime
           </NavLink>
           <NavLink
-            href="https://freek.to/explore/manga"
+            href="/explore/manga"
             icon={
               <MangaIcon
                 className="fill-slate-100 shrink-0"
@@ -78,7 +78,7 @@ const Navigation = () => {
             Manga
           </NavLink>
           <NavLink
-            href="https://freek.to/explore/live-tv"
+            href="/explore/live-tv"
             icon={
               <LiveTvIcon className="stroke-slate-300" width={24} height={24} />
             }
@@ -86,20 +86,20 @@ const Navigation = () => {
             Live Tv
           </NavLink>
           <NavLink
-            href="https://freek.to/history"
+            href="/history"
             icon={<ClockIcon className="text-slate-100" width={24} height={24} />}
             className="mt-auto"
           >
             History
           </NavLink>
           <NavLink
-            href="https://freek.to/watchlist"
+            href="/watchlist"
             icon={<HeartIcon width={23.5} height={23.5} />}
           >
             WatchList
           </NavLink>
           <NavLink
-            href="https://freek.to/settings"
+            href="/settings"
             icon={
               <SettingsIcon
                 className="fill-slate-50 shrink-0"
